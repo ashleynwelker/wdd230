@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color: lightblue;
+}
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    float: right;
+}
+nav {
+    background-color: lightblue;
+}
+footer {
+    background-color: lightblue;
+}
