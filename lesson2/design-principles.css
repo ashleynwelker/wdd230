@@ -16,6 +16,7 @@ header {
 }
 footer {
     background-color:  #B4CDED;
+    text-align: center;
 }
 main {
     display: flex;
