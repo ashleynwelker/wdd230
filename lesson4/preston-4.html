@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preston Weather Site</title>
+
+    <!--Style Sheets-->
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img id="logo" src="images/sun-cloud-weather-icon.png" alt="weather-logo">
+        <section>
+            <h1 id="title">Preston Weather Site</h1>
+            <h3>Where you come for all your weather needs</h3>
+        </section>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul id="menu">
+            <li>Home</li>
+            <li>Preston</li>
+            <li>Soda Springs</li>
+            <li>Fish Haven</li>
+            <li>Storm Center</li>
+            <li>Gallery</li>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+    <main>
+        <h1>Preston, Idaho</h1>
+        <input placeholder="Hero Image and Weather Summary">
+        <input placeholder="Five Day Weather Forecast">
+        <input placeholder="Weather Article">
+        <input placeholder="Contact Information">        
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy;<span id="current-year"></span> | Ashley Welker (Ray)</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+<script src="js/preston.js"></script>
+</html>
