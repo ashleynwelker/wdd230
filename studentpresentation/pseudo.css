@@ -1,0 +1,47 @@
+.firstLine::first-line {
+    color: purple;
+}
+
+.firstLetter::first-letter {
+    color: blue;
+}
+
+.firstLineAndLetter::first-letter {
+    font-size: larger;
+    color: orange;
+}
+.firstLineAndLetter::first-line {
+    color: violet;
+}
+
+.before::before {
+    content: "<3 ";
+    color: red;
+}
+
+.after::after {
+    content: " <3";
+    color: pink;
+}
+
+.selection::selection {
+    color: yellow;
+}
+
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color: turquoise;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: magenta;
+}
+
+p:first-child {
+    color: hotpink;
+}
