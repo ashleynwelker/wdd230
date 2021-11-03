@@ -4,3 +4,4 @@ function dates() {
     document.getElementById("last-modified").innerHTML = lastModified.toLocaleString();
     document.getElementById("current-year").innerHTML = currentYear.getFullYear();
 }
+dates();
