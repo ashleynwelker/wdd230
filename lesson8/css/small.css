@@ -1,0 +1,83 @@
+#logo {
+    margin-top: 15px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#banner {
+    display: none;
+    font-size: 15px;
+    border: 5px solid #FFED66;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.class {display: block;}
+
+.hero-image, .article-image {
+    min-width: 300px;
+}
+
+.weather-icon {
+    width: 80px;
+}
+.active {
+    padding: 10px;
+    background-color: #2274A5;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: #0C120C;
+} 
+
+section div {
+    display: flex;
+}
+
+/* .hero-image {
+    content:url("../images/idaho-weather-image-small.jpg");
+} */
+
+main section figure.hero-image {
+    width: 90%;
+}
+
+main section figure.hero-image img {
+    width: 100%;
+}
+article {text-align: left;}
+
+#contactUs {text-align: left;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+}
+p, li, input {font-family: 'Quicksand', sans-serif;}
+
+#title {font-size: 20px;}
+
+body {background-color: #B4CDED;}
+
+header {
+    display: flex;
+    margin: auto;
+}
+
+#menu {display: none;}
+
+h3 {font-size: 10px;}
+
+.article-image {
+    content:url("../images/earthquake-utah-small.jpg");
+}
+
+input {
+    text-align: center;
+    width: 65%;
+    border: 2px dashed #FFED66;
+    color: #B4CDED;
+    padding: 5px;
+    margin: 5px; 
+}
