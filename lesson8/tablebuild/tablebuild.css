@@ -1,0 +1,27 @@
+th {
+    background-color: #7fb9c2;
+    padding: 10px;
+    font-size: 40px;
+}
+td {
+    background-color: #e7f0ed;
+    padding: 10px;
+}
+.odd {
+    background-color: #e7ffed;
+}
+tr {
+    font-family: Ubuntu, sans-serif;
+}
+#black {
+    font-style: italic;
+}
+.november td:nth-child(3) {
+    background-color: #628ca6; 
+}
+.labels {
+    background-color: #628ca6;
+}
+tfoot tr td{
+    background-color: #7fb9c2;
+}s
