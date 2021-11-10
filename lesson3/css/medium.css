@@ -1,6 +1,14 @@
 /**Tablet View**/
 @media only screen and (min-width: 560px) {
     nav {
-        flex-basis: 50%;
+        border: double #FFED66 2px;
+    }
+    li {
+        display: inline;
+        text-decoration: none;
+        padding: 10px 10px;
+    }
+    h1 {
+        text-align: center;
     }
 }

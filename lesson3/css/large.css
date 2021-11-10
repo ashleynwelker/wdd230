@@ -1,6 +1,11 @@
 /**Desktop View**/
 @media only screen and (min-width: 1028px) {
     nav {
-        flex-basis: 100%;
+        border: double #FFED66 2px;
+    }
+    li {
+        display: inline;
+        text-decoration: none;
+        padding: 0 10px 0 10px;
     }
 }
