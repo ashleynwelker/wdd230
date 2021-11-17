@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preston Weather Site</title>
+
+    <!--Style Sheets-->
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img id="logo" src="images/sun-cloud-weather-icon.png" alt="weather-logo">
+        <section>
+            <div id="title">Preston Weather Site</div>
+            <div>Where you come for all your weather needs</div>
+        </section>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul id="menu">
+            <li><a href="">Home</a></li>
+            <li class="active"><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+    <main>
+        <h1>Preston, Idaho</h1>
+
+            <!-- <input placeholder="Hero Image and Weather Summary"> -->
+            <section id="banner">
+                <p>Saturday = Preston Pancakes in the Park!</p>
+                <p>9:00 am Saturday at the city park pavilion</p>
+            </section>
+            <section>
+                <picture>
+                    <img class="hero-image" src="images/wdd230_image_400.jpg" alt="Idaho image" 
+                    srcset="images/wdd230_image_400, images/wdd230_image_600 images/wdd230_800">
+                </picture>
+                <!-- <img class="hero-image" alt="Idaho weather image"> -->
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currentDescription"></span></p>
+                <p>High: <span id="temperature"></span>&deg;</p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+                <p>Humidty: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+            </section>
+
+            <!-- <input placeholder="Five Day Weather Forecast"> -->
+            <section>
+                <div>
+                    <h4 class="dayOfWeek"></h4>
+                    <img class="weather-icon" alt="current-weather-icon" id="imagesrc">
+                    <span class="forecast"></span><br>
+
+                    <h4 class="dayOfWeek"></h4>
+                    <img class="weather-icon" alt="current-weather-icon" id="imagesrc">
+                    <span class="forecast"></span><br>
+
+                    <h4 class="dayOfWeek"></h4>
+                    <img class="weather-icon" alt="current-weather-icon" id="imagesrc">
+                    <span class="forecast"></span><br>
+
+                    <h4 class="dayOfWeek"></h4>
+                    <img class="weather-icon" alt="cloudy-weather-icon" id="imagesrc">
+                    <span class="forecast"></span><br>
+
+                    <h4 class="dayOfWeek"></h4>
+                    <img class="weather-icon" alt="cloudy-weather-icon" id="imagesrc">
+                    <span class="forecast"></span><br>
+                </div>
+            </section>
+
+            <!-- <input placeholder="Weather Article"> -->
+            <article>
+                <h2>Natural Disasters and Utah's Weather</h2>
+                <p>December in the capital city was rather average. The normal average temperature 
+                in Salt Lake City for the month is 30.3°. In 2020, the average temperature was 30.0°. 
+                An average temperature is calculated by adding up all the daily high and low 
+                temperatures and dividing by the number of days within a given month.
+                The record for average temperature is 41.7° set in 1917. Unfortunately, for the sixth 
+                consecutive month and 8 out of the last 9 months of 2020, Salt Lake City finished well 
+                below their normal total monthly precipitation with just .34″. The normal total 
+                precipitation in December is 1.41″ with record precipitation in 1983 of 4.37″. It was 
+                also the 8th driest December ever...
+                https://www.abc4.com/weather/natural-disasters-and-utahs-weather-2020-was-one-for-the-record-books/
+                </p>
+                <img class="article-image" alt="Image of earthquake's distruction">
+            </article>
+            
+            <!-- <input placeholder="Contact Information"> -->
+            <section>
+                <h2>Contact Us</h2>
+                <h5>Address</h5>
+                <p>1234 Main St. Any Town, USA</p>
+                <h5>Phone: </h5>
+                <p>801-123-1234</p>
+                <h5>Email: </h5>
+                <p>youremail@email.com</p>
+                <iframe src="https://www.google.com/maps/place/Preston,+ID" title="Map of Preston, Idaho"></iframe>
+            </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy;<span id="current-year"></span> | Ashley Welker (Ray)</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ['', '']}});
+    </script>
+</body>
+<script src="js/preston.js"></script>
+<script src="js/windchill.js"></script>
+</html>
