@@ -10,10 +10,7 @@
         max-width: 70rem;
         margin: auto;
     }
-    nav {
-        display: inline;
-    }
-    #menu {
+    .menu {
         display: block;
         text-decoration: none;
     }

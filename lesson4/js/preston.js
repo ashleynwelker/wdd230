@@ -13,12 +13,23 @@ function dates() {
 
 dates();
 
-function toggleMenu() {
-    var list = document.getElementById("menu");
-    if (list.style.display === "block") {
-        list.style.display = "none";
-    } 
-    else {
-        list.style.display = "block";
+let hamburger = document.querySelector(".icon");
+hamburger.addEventListener("click", toggleMenu);
+
+let list = document.querySelector(".menu");
+function toggleMenu() {    
+    console.log(list);
+    list.classList.toggle("openMenu");
+    // if (list.style.display === "block") {
+    //     list.style.display = "none";
+    // } 
+    // else {
+    //     list.style.display = "block";
+    // }
+}
+
+window.onresize = () => {
+    if (window.innerWidth > 760) {
+        list.classList.remove("openMenu");
     }
 }
