@@ -12,8 +12,6 @@
     <link href="css/large.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="preston.js"></script>
 </head>
 
 <body>
@@ -21,23 +19,21 @@
     <header>
         <img id="logo" src="images/sun-cloud-weather-icon.png" alt="weather-logo">
         <section>
-            <h1 id="title">Preston Weather Site</h1>
-            <h3>Where you come for all your weather needs</h3>
+            <div id="title">Preston Weather Site</div>
+            <div>Where you come for all your weather needs</div>
         </section>
     </header>
 
     <!--Navigation-->
     <nav>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <ul id="menu">
-            <li><a href="">Home</a></li>
+        <ul class="menu">
+            <li><a href="#" class="icon">&#9776;</a></li>
+            <li><a href="#">Home</a></li>
             <li class="active"><a href="">Preston</a></li>
-            <li><a href="">Soda Springs</a></li>
-            <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm Center</a></li>
-            <li><a href="">Gallery</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
 
@@ -112,6 +108,6 @@
         <p>Last Modified: <span id="last-modified"></span></p>
     </footer>
 
+<script src="js/preston.js"></script>    
 </body>
-<script src="js/preston.js"></script>
 </html>

@@ -1,8 +1,8 @@
 #logo {
     margin-top: 15px;
     float: left;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    font-size: 1rem;
 }
 #banner {
     display: none;
@@ -13,7 +13,33 @@
     padding: 5px;
     margin-bottom: 5px;
 }
-.class {display: block;}
+.icon {display: block;}
+
+nav {
+    background-color: #eee;
+}
+
+nav a {
+    color: #0C120C;
+    padding: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .6rem 2%;
+    text-decoration: none;
+    color: #0C120C;
+}
+
+li:hover {
+    background-color: #FFED66;
+}
 
 .hero-image, .article-image {
     min-width: 300px;
@@ -57,7 +83,18 @@ header {
     margin: auto;
 }
 
-#menu {display: none;}
+.menu {display: block;}
+.menu li:first-child {
+    display: block;
+}
+.menu li {
+    display: none;
+}
+
+.openMenu li {
+    display: block;
+    list-style-type: none;
+}
 
 h3 {font-size: 10px;}
 

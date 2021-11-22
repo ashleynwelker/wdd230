@@ -26,7 +26,7 @@ nav ul li a {
     color: #0C120C;
 }
 
-#hero-image, #article-image {
+.hero-image, .article-image {
     min-width: 50%;
     height: 10%;
 }
