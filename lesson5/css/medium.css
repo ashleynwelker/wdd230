@@ -11,12 +11,12 @@
         text-align: center;
     }
     .menu {
-        display: block;
+        display: flex;
         text-align: center;
     }
     .menu li {
-        display: inline;
-        border: 2px solid black;
+        display: inline-block;
+        margin: auto;
         padding: 10px 15px;
     }
 
@@ -25,7 +25,7 @@
     }
     
     input {
-        display:inline-flex;
+        display: inline-flex;
     }
     .article-image {
         content:url("../images/earthquake-utah.jpg");
