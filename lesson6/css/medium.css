@@ -25,7 +25,7 @@
     }
     
     input {
-        display:inline-flex;
+        display: inline-flex;
     }
     .article-image {
         content:url("../images/earthquake-utah.jpg");
