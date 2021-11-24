@@ -73,7 +73,7 @@ main section figure.hero-image {
 main section figure.hero-image img {
     width: 100%;
 }
-article {text-align: left;}
+article {text-align: center;}
 
 #contactUs {text-align: left;}
 
