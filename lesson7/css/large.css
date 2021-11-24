@@ -20,11 +20,10 @@
         text-decoration: none;
         color: #0C120C;
     }
-
     li:hover {
         background-color: #FFED66;
     }
-    #menu {
+    .menu {
         display: block;
         text-decoration: none;
     }

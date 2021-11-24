@@ -18,55 +18,55 @@
 <body>
     <!--Header-->
     <header>
-        <img id="logo" src="/lesson6/images/sun-cloud-weather-icon.png" alt="weather-logo">
+        <img id="logo" src="../lesson7/images/sun-cloud-weather-icon.png" alt="weather-logo">
         <section>
-            <h1 id="title">Preston Weather Site</h1>
-            <h3>Where you come for all your weather needs</h3>
+            <div id="title">Preston Weather Site</div>
+            <div>Where you come for all your weather needs</div>
         </section>
     </header>
 
     <!--Navigation-->
     <nav>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <ul id="menu">
-            <li><a href="">Home</a></li>
-            <li class="active"><a href="">Preston</a></li>
-            <li><a href="">Soda Springs</a></li>
-            <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm Center</a></li>
+        <ul class="menu">
+            <li><a href="#" class="icon">&#9776;</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
             <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/farm-and-rainbow-400.jpg" alt="Farm with rainbow in view">
+    <main>
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/farm-and-rainbow-400.jpg" alt="Farm with rainbow in view">
             <figcaption>Cute farm with a rainbow</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/field-with-barn-400.jpg" alt="Open field with barn">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/field-with-barn-400.jpg" alt="Open field with barn">
             <figcaption>Open field with a barn</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/field-with-flowers-400.jpg" alt="A field with flowers">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/field-with-flowers-400.jpg" alt="A field with flowers">
             <figcaption>A mountain field with flowers</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/fields-400.jpg" alt="Open farm fields">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/fields-400.jpg" alt="Open farm fields">
             <figcaption>Open farm fields</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/green-mountain-400.jpg" alt="Mountain covered with green plants">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/green-mountain-400.jpg" alt="Mountain covered with green plants">
             <figcaption>Rolling green fields</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/idaho-woods-400.jpg" alt="Sparce forest with trees">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/idaho-woods-400.jpg" alt="Sparce forest with trees">
             <figcaption>Forest with trees</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/lake-mountain-400.jpg" alt="Lake view through trees">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/lake-mountain-400.jpg" alt="Lake view through trees">
             <figcaption>Lake view through forest trees</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/snow-and-fence-400.jpg" alt="Snowy image with a wood fence">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/snow-and-fence-400.jpg" alt="Snowy image with a wood fence">
             <figcaption>Snowy view with a small wooden fence</figcaption>
         </figure>
-        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/snowy-cabin-400.jpg" alt="Cabin in forest with snow">
+        <figure><img src="https://via.placeholder.com/300x400/#00FFFF" data-src="images/prestonGalleryImages/snowy-cabin-400.jpg" alt="Cabin in forest with snow">
             <figcaption>Cabin in forest with snow</figcaption>
         </figure>
+    </main>
 
     <footer>
         <p>&copy;<span id="current-year"></span> | Ashley Welker (Ray) | Utah | 
@@ -74,6 +74,6 @@
         <p>Last Modified: <span id="last-modified"></span></p>
     </footer>
 
+    <script src="lazyload/js/lazyload.js"></script>
     </body>
-    <script src="/lesson7/lazyload/js/lazyload.js"></script>
 </html>
