@@ -10,17 +10,22 @@
         max-width: 70rem;
         text-align: center;
     }
-    #menu {
-        display: block;
+    .menu {
+        display: flex;
         text-align: center;
     }
-    li {
-        display: inline;
-        border: 2px solid black;
+    .menu li {
+        display: inline-block;
+        margin: auto;
         padding: 10px 15px;
     }
+
+    li:hover {
+        background-color: #FFED66;
+    }
+
     input {
-        display:inline-flex;
+        display: inline-flex;
     }
     .article-image {
         content:url("../images/earthquake-utah.jpg");
