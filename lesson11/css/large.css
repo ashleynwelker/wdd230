@@ -1,0 +1,38 @@
+/**Desktop View**/
+@media only screen and (min-width: 1028px) {
+    header {
+        margin-left: 275px;
+    }
+    .icon {
+        display: none;
+    }
+    /* .hero-image{
+        content:url("../images/idaho-weather-image.jpg");
+    } */
+    main, footer {
+        max-width: 70rem;
+        margin: auto;
+    }
+    nav {
+        display: inline;
+    }
+    a {
+        text-decoration: none;
+        color: #0C120C;
+    }
+    li:hover {
+        background-color: #FFED66;
+    }
+    .menu {
+        display: block;
+        text-decoration: none;
+    }
+    .article-image {
+        content:url("../images/earthquake-utah.jpg");
+    }
+}
+
+/* medium blue #2274A5.<br>
+                This is a light blue that will pair with white to be background colors: #B4CDED.<br>
+                This is light yellow that will mostly be for accents on the page: #FFED66.<br>
+                This is a shade of black that will be the text color for this website: #0C120C. */
