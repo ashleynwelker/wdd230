@@ -1,27 +1,35 @@
-let currentDate = new Date();
+function dates() {
+    let currentYear = new Date();
+    let lastModified = new Date(document.lastModified);
+    let options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    }; 
 
-let lastModified = new Date(document.lastModified);
-let options = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric"
-}; 
+    document.getElementById("last-modified").innerHTML = lastModified.toLocaleDateString("en", options);
+    document.getElementById("current-year").innerHTML = currentYear.getFullYear();
+}
 
-document.getElementById("last-modified").innerHTML = lastModified.toLocaleDateString("en", options);
-document.getElementById("current-year").innerHTML = currentDate.getFullYear();
+dates();
 
-if (currentDate.getDay() == 5) {
+if (new Date().getDay() == 5) {
     document.getElementById("banner").style.display = "block";
 }
 
+let hamburger = document.querySelector(".icon");
+hamburger.addEventListener("click", toggleMenu);
+
+let list = document.querySelector(".menu");
 function toggleMenu() {
-    var list = document.getElementById("menu");
-    if (list.style.display === "block") {
-        list.style.display = "none";
-    } 
-    else {
-        list.style.display = "block";
+    console.log(log);
+    list.classList.toggle("openMenu");
+}
+
+window.onresize = () => {
+    if (window.innerWidth > 760) {
+        list.classList.remove("openMenu");
     }
 }
 
