@@ -62,10 +62,6 @@ section div {
     display: flex;
 }
 
-/* .hero-image {
-    content:url("../images/idaho-weather-image-small.jpg");
-} */
-
 main section figure.hero-image {
     width: 90%;
 }
@@ -73,7 +69,7 @@ main section figure.hero-image {
 main section figure.hero-image img {
     width: 100%;
 }
-article {text-align: left;}
+article {text-align: center;}
 
 #contactUs {text-align: left;}
 
@@ -106,10 +102,6 @@ header {
 }
 
 h3 {font-size: 10px;}
-
-.article-image {
-    content:url("../images/earthquake-utah-small.jpg");
-}
 
 input {
     text-align: center;

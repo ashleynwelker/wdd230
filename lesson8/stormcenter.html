@@ -4,7 +4,7 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Preston Weather Site</title>
+    <title>Local Weather Site</title>
 
     <!--Style Sheets-->
     <link href="css/small.css" rel="stylesheet">
@@ -20,7 +20,7 @@
     <header>
         <img id="logo" src="images/sun-cloud-weather-icon.png" alt="weather-logo">
         <section>
-            <div id="title">Preston Weather Site</div>
+            <div id="title">Local Weather Site</div>
             <div>Where you come for all your weather needs</div>
         </section>
     </header>
@@ -29,12 +29,12 @@
     <nav>
         <ul class="menu">
             <li><a href="#" class="icon">&#9776;</a></li>
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
-            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            <li><a href="../lesson11/index.html">Home</a></li>
+            <li><a href="../lesson11/preston.html">Preston</a></li>
+            <li><a href="../lesson11/soda-springs.html">Soda Springs</a></li>
+            <li><a href="../lesson11/fish-haven.html">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
@@ -42,16 +42,17 @@
     <main>
         <form method="get" action="thanks.html">
             <label>Full Name: </label>
-            <input type="text" required><br>
+            <input type="text" pattern="^[A-Za-z ,.'-]+$" required><br>
 
             <label>Email: </label>
-            <input type="email" placeholder="email@youremail.com"><br>
+            <input type="email" placeholder="email@youremail.com" 
+            pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"><br>
 
             <label>Phone Number: </label>
-            <input type="tel" required><br>
+            <input type="tel" pattern="^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required><br>
 
             <label>Zip Code: </label>
-            <input type="number" required><br>
+            <input type="number" pattern="^\d{5}$)|(^\d{9}$)|(^\d{5}-\d{4}$" required><br>
 
             <label>Storm Date: </label>
             <input type="date"><br>
@@ -66,12 +67,12 @@
                     <option value="Tornado">
                 </datalist><br>
 
-            <label>Storm Severity: </label>    
+            <label id="storm-severity">Storm Severity: </label>    
             <input type="range" min="1" max="10"><br>
 
             <label>Storm Region: </label>
             <select>
-                <option value="" disabled></option>
+                <option value="Choose a location" disabled></option>
                 <option value="preston">Preston</option>
                 <option value="soda springs">Soda Springs</option>
                 <option value="fish haven">Fish Haven</option>
@@ -87,7 +88,7 @@
             <label>Comments: </label>
             <textarea rows="2"></textarea><br>
 
-            <input type="submit">
+            <input type="submit" value="submit">
         </form>
     </main>
 

@@ -119,3 +119,7 @@ input {
     padding: 5px;
     margin: 5px; 
 }
+
+input[type=range] {
+    padding: 0;
+}

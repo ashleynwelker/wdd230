@@ -107,10 +107,6 @@ header {
 
 h3 {font-size: 10px;}
 
-.article-image {
-    content:url("../images/earthquake-utah-small.jpg");
-}
-
 input {
     text-align: center;
     width: 65%;
