@@ -120,6 +120,16 @@ input {
     margin: 5px; 
 }
 
+.radio-button {
+    width: auto;
+}
+
+input[type=submit] {
+    border-radius: 15%;
+    width: 15%;
+    color: #0C120C;
+}
+
 input[type=range] {
     padding: 0;
 }
