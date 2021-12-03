@@ -49,8 +49,9 @@
             </section>
             <section>
                 <picture>
-                    <img class="hero-image" src="images/wdd230_image_400.jpg" alt="Idaho image" 
-                    srcset="images/wdd230_image_400, images/wdd230_image_600 images/wdd230_800">
+                    <source srcset="images/idaho-weather-image-medium.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/idaho-weather-image-large.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="Idaho image" src="images/idaho-weather-image-small.jpg">
                 </picture>
                 <!-- <img class="hero-image" alt="Idaho weather image"> -->
                 <h2>Weather Summary</h2>
@@ -88,19 +89,30 @@
 
             <!-- <input placeholder="Weather Article"> -->
             <article>
-                <h2>Natural Disasters and Utah's Weather</h2>
-                <p>December in the capital city was rather average. The normal average temperature 
-                in Salt Lake City for the month is 30.3°. In 2020, the average temperature was 30.0°. 
-                An average temperature is calculated by adding up all the daily high and low 
-                temperatures and dividing by the number of days within a given month.
-                The record for average temperature is 41.7° set in 1917. Unfortunately, for the sixth 
-                consecutive month and 8 out of the last 9 months of 2020, Salt Lake City finished well 
-                below their normal total monthly precipitation with just .34″. The normal total 
-                precipitation in December is 1.41″ with record precipitation in 1983 of 4.37″. It was 
-                also the 8th driest December ever...
-                https://www.abc4.com/weather/natural-disasters-and-utahs-weather-2020-was-one-for-the-record-books/
+                <h2>West Side School District announces plans for in-person instruction come fall</h2>
+                <p>DAYTON, Idaho – In a video posted to their YouTube channel, Dayton, Idaho based West Side School 
+                   District announced that in-person classes will resume on August 20th.
+
+                   The plans come as school districts across the nation attempt to balance a moral obligation to 
+                   keep students and staff safe, with the need to get kids back in the classroom, following a quick 
+                   shift to remote learning earlier this spring. Experts say that online instruction is especially 
+                   straining for students who have special needs.
+                    
+                   West Side district’s plans will schedule hand-washing times, implement a strict disinfecting 
+                   protocol, and require social distancing “when reasonable”.
+                    
+                   The district will also provide accommodation for vulnerable employees and staff.
+                    
+                   As confirmed cases of COVID-19 continue to spike in various Idaho counties, decisions on how 
+                   to safely return to school is being left in the hands of local leaders, school districts and 
+                   private charters across the state...
+                   https://mylocalradio.com/west-side-school-district-announces-plans-for-in-person-instruction-come-fall/
                 </p>
-                <img class="article-image" alt="Image of earthquake's distruction">
+                <picture>
+                    <source srcset="images/school-600.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/school-800.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="School books" src="images/school-400.jpg">
+                </picture>
             </article>
             
             <!-- <input placeholder="Contact Information"> -->
@@ -125,7 +137,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-        WebFont.load({google: {families: ['', '']}});
+        WebFont.load({google: {families: ['PT Serif', 'Quicksand']}});
     </script>
 </body>
 <script src="js/preston.js"></script>

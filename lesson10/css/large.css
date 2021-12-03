@@ -6,9 +6,7 @@
     .icon {
         display: none;
     }
-    /* .hero-image{
-        content:url("../images/idaho-weather-image.jpg");
-    } */
+    
     main, footer {
         max-width: 70rem;
         margin: auto;
@@ -28,9 +26,6 @@
     .menu {
         display: block;
         text-decoration: none;
-    }
-    .article-image {
-        content:url("../images/earthquake-utah.jpg");
     }
 }
 

@@ -49,8 +49,9 @@
             </section>
             <section>
                 <picture>
-                    <img class="hero-image" src="images/wdd230_image_400.jpg" alt="Idaho image" 
-                    srcset="images/wdd230_image_400, images/wdd230_image_600 images/wdd230_800">
+                    <source srcset="images/wdd230_image_600.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/wdd230_image_800.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="Idaho image" src="images/wdd230_image_400.jpg">
                 </picture>
                 <!-- <img class="hero-image" alt="Idaho weather image"> -->
                 <h2>Weather Summary</h2>
@@ -100,7 +101,11 @@
                 also the 8th driest December ever...
                 https://www.abc4.com/weather/natural-disasters-and-utahs-weather-2020-was-one-for-the-record-books/
                 </p>
-                <img class="article-image" alt="Image of earthquake's distruction">
+                <picture>
+                    <source srcset="images/earthquake-utah-medium.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/earthquake-utah-large.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="Image of earthquake's distruction" src="images/earthquake-utah-small.jpg" class="article-image">
+                </picture>
             </article>
             
             <!-- <input placeholder="Contact Information"> -->

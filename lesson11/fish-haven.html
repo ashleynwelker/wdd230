@@ -49,8 +49,9 @@
             </section>
             <section>
                 <picture>
-                    <img class="hero-image" src="images/wdd230_image_400.jpg" alt="Idaho image" 
-                    srcset="images/wdd230_image_400, images/wdd230_image_600 images/wdd230_800">
+                    <source srcset="images/idaho-weather-image-medium.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/idaho-weather-image-large.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="Idaho image" src="images/idaho-weather-image-small.jpg">
                 </picture>
                 <!-- <img class="hero-image" alt="Idaho weather image"> -->
                 <h2>Weather Summary</h2>
@@ -88,19 +89,21 @@
 
             <!-- <input placeholder="Weather Article"> -->
             <article>
-                <h2>Natural Disasters and Utah's Weather</h2>
-                <p>December in the capital city was rather average. The normal average temperature 
-                in Salt Lake City for the month is 30.3°. In 2020, the average temperature was 30.0°. 
-                An average temperature is calculated by adding up all the daily high and low 
-                temperatures and dividing by the number of days within a given month.
-                The record for average temperature is 41.7° set in 1917. Unfortunately, for the sixth 
-                consecutive month and 8 out of the last 9 months of 2020, Salt Lake City finished well 
-                below their normal total monthly precipitation with just .34″. The normal total 
-                precipitation in December is 1.41″ with record precipitation in 1983 of 4.37″. It was 
-                also the 8th driest December ever...
-                https://www.abc4.com/weather/natural-disasters-and-utahs-weather-2020-was-one-for-the-record-books/
+                <h2>Little Fish Haven, Idaho, is paradise for residents</h2>
+                <p>FISH HAVEN, Idaho — It's an undiscovered paradise. Most people who drive by recognize the raw 
+                    beauty of a place ringed by high desert mountains and bordered by the shores of a 
+                    vast natural lake.
+
+                   In winter the hills outside this small paradise echo with the sharp whine of snow machines 
+                   and in the summer thousands of tourists ply the lake's bright blue waters with water 
+                   skis or fishing poles....
+                   https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents
                 </p>
-                <img class="article-image" alt="Image of earthquake's distruction">
+                <picture>
+                    <source srcset="images/horse-on-farm-600.jpg" media="(min-width: 37.5em) and (max-width: 59.9em)">
+                    <source srcset="images/horse-on-farm-800.jpg" media="(min-width: 60.0em) and (max-width: 120em)">
+                    <img alt="Horses on a farm" src="images/horse-on-farm-400.jpg">
+                </picture>
             </article>
             
             <!-- <input placeholder="Contact Information"> -->

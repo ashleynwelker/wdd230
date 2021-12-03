@@ -27,8 +27,9 @@
         display: block;
         text-decoration: none;
     }
-    .article-image {
-        content:url("../images/earthquake-utah.jpg");
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 

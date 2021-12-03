@@ -107,14 +107,23 @@ header {
 
 h3 {font-size: 10px;}
 
-.article-image {
-    content:url("../images/earthquake-utah-small.jpg");
-}
-
 input {
     text-align: center;
     width: 65%;
     border: 2px dashed #FFED66;
     color: #B4CDED;
     padding: 10px; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+figure {
+    width: 100%;
+}
+
+img {
+    width: 50%;
 }
