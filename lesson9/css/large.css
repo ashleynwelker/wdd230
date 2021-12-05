@@ -13,13 +13,11 @@
     }
     nav {
         display: inline;
-        background-color: #eee;
     }
     a {
         text-decoration: none;
         color: #0C120C;
     }
-
     li:hover {
         background-color: #FFED66;
     }
@@ -30,6 +28,6 @@
 }
 
 /* medium blue #2274A5.<br>
-This is a light blue that will pair with white to be background colors: #B4CDED.<br>
-This is light yellow that will mostly be for accents on the page: #FFED66.<br>
-This is a shade of black that will be the text color for this website: #0C120C. */
+                This is a light blue that will pair with white to be background colors: #B4CDED.<br>
+                This is light yellow that will mostly be for accents on the page: #FFED66.<br>
+                This is a shade of black that will be the text color for this website: #0C120C. */

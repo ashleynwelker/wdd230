@@ -25,9 +25,13 @@
         display: block;
         text-decoration: none;
     }
+
+    div.town-cards section {
+        flex-direction: row;
+    }
 }
 
 /* medium blue #2274A5.<br>
-                This is a light blue that will pair with white to be background colors: #B4CDED.<br>
-                This is light yellow that will mostly be for accents on the page: #FFED66.<br>
-                This is a shade of black that will be the text color for this website: #0C120C. */
+This is a light blue that will pair with white to be background colors: #B4CDED.<br>
+This is light yellow that will mostly be for accents on the page: #FFED66.<br>
+This is a shade of black that will be the text color for this website: #0C120C. */
