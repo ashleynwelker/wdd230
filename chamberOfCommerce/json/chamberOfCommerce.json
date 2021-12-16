@@ -1,0 +1,45 @@
+{
+    "businesses": [
+        {
+            "name": "Brand Impressions LLC",
+            "phone": "801-885-6111",
+            "address": "9072 Torrey Pines Loop Eagle Mountain, UT 84005",
+            "web-links": "https://www.brand-impressions.com/"
+        },
+        {
+            "name": "Eagle Mountain Arts",
+            "phone": "307-248-1404",
+            "address": "7891 N. Bridleway Road Eagle Mountain, Ut 84005",
+            "web-links": "https://www.eaglemountainarts.com/"
+        },
+        {
+            "name": "Quantam Mobile Detail",
+            "phone": "801-789-5957",
+            "address": "2267 E. Autumn Drive Eagle Mountain, UT 84005" 
+        },
+        {
+            "name": "Garden Near the Green",
+            "phone": "801-899-5040",
+            "address": "3700 E. Campus Drive #100 Eagle Mountain, UT 84005",
+            "web-links": "https://www.gardennearthegreen.com/"
+        },
+        {
+           "name": "Knowledge Explorers Preschool",
+           "phone": "801-897-7841",
+           "address": "2919 Saddle Rock Road Eagle Mountain, UT 84005",
+           "web-links": "https://www.kep.school/"
+        },
+        {
+            "name": "Know Where to Hold'Em",
+            "phone": "305-510-0719",
+            "address": "1904 E. Sunnyvale Drive Eagle Mountain, Ut 84005",
+            "web-links": "https://411gun.com/listings/know-where-to-hold-em-eagle-mountain-ut/"
+        },
+        {
+            "name": "Ace Concrete Pumping Inc",
+            "phone": "801-205-0762",
+            "address": "9425 Canyon Wash Eagle Mountain, UT 84005",
+            "web-links": "https://ace-concrete-pumping-inc.business.site/"
+        }
+    ]
+}

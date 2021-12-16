@@ -1,0 +1,44 @@
+/**Tablet View**/
+@media only screen and (min-width: 560px) {
+    header {
+        font-size: larger;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        border: none;
+    }
+
+    header img {
+        height: 75px;
+        width: 75px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+
+    .icon {display: none;}
+
+    nav li {
+        display: inline-block;
+        margin: auto;
+        padding: 10px 15px;
+        color: #A2666F;
+    }
+
+    .menu {
+        display: flex;
+        text-align: center;
+    }
+    .menu li {
+        display: inline-block;
+        margin: auto;
+        padding: 10px 15px;
+    }
+
+    body {
+        width: 70%;
+        margin: auto;
+    }
+
+}

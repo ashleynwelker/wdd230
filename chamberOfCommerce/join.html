@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+        <title>Chamber of Commerce - Eagle Mountain, Utah | Join</title>
+
+        <!--Stylesheets-->
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="css/normalize.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <img src="images/eagleMountainLogo.png" alt="Eagle Mountain city sign">
+            <section>
+                <p>Eagle Mountain | Chamber of Commerce<br>
+                What brings the community together</p>
+            </section>
+        </header>
+
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="#" class="icon">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li class="active">Join<a href="join.html"></a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Main Content-->
+        <main>
+            <h1>Join Eagle Mountain's Chamber of Commerce</h1>
+
+            <!--Benefit of joining-->
+            <section>
+
+            </section>
+
+            <!--Form to join-->
+            <section>
+                <form action="">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Becky" required><br>
+                    <label for="lastName">Last Name: </label>
+                    <input type="text"  id="lastName" name="lastName" placeholder="Robertson" required><br>
+                    <label for="title">Title: </label>
+                    <input type="text" id="title" name="title" placeholder="Executive Producer"><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="email@emailexample.com" required><br>
+                    <label for="cellPhone">Cell Phone: </label>
+                    <input type="number" id="cellPhone" name="cellPhone" placeholder="123-124-1234"><br>
+                    <label for="businessName">Business Name: </label>
+                    <input type="text" id="businessName" name="businessName" required><br>
+                    <label for="businessAddress">Business Address: </label>
+                    <input type="businessAddress" id="businessAddress" name="businessAddress"><br>
+                    <label for="businessWebsite">Business Website: </label>
+                    <input type="text" id="businessWebsite" name="businessWebsite"><br>
+                    <label for="businessDescription">Business Description: </label>
+                    <input type="text" id="businessDescription" name="businessDescription"><br>
+                    <label for="membershipLevel">Membership Level: </label>
+                    <select>
+                        <option value="" disabled selected>Please Select desired membership level</option>
+                        <option value="non-profit">Non-Profit ($100)</option>
+                        <option value="bronze">Bronze ($200)</option>
+                        <option value="silver">Silver ($400)</option>
+                        <option value="gold">Gold ($1000)</option>
+                    </select><br>
+                    <input type="submit" value="Submit" class="button">
+                </form>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;<span id="current-year"></span> | Ashley Welker (Ray)</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+            <a href="attributions.html">Attributions Page</a>
+        </footer>
+
+        <script src="js/last-modified.js"></script>
+        <script src="js/toggle-menu.js"></script>
+        <script>
+            WebFont.load({google: {families: ['Martel', 'Satisfy']}});
+        </script>
+    </body>
+</html>

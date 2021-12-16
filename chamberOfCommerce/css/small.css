@@ -1,0 +1,98 @@
+/**Colors
+Black: #262626
+Tan: #DDAE7E
+Purple: #A2666F
+Green: #3F826D
+Blue: #79AEA3**/
+
+p, input {
+    font-family: 'Martel', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satisfy', serif;
+}
+
+header {
+    color: #3F826D;
+    display: flex;
+    text-align: center;
+    border: 2px solid #DDAE7E;
+    padding: 5px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+header p {
+    padding: 5px;
+}
+
+nav {
+    background-color: #79AEA3;
+    text-decoration: none;
+    list-style-type: none;
+    color: #262626;
+}
+
+nav li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #DDAE7E;
+    height: 20px;
+    font-size: larger;
+    color: #fff;
+}
+
+.icon {display: block;}
+
+.menu {display: block;}
+
+.menu li:first-child {
+    display: block;
+}
+
+.menu li {
+    display: none;
+}
+
+.openMenu li {
+    display: block;
+    list-style-type: none;
+}
+
+body {
+    color: #262626;
+    padding: 5px;
+}
+
+input {
+    padding: 2px;
+}
+
+.button {
+    background-color: #3F826D;
+    margin: 5px;
+    padding: 1px;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    font-size: medium;
+}
+
+.weather {
+    background-color: #DDAE7E;
+    padding: 5px;
+}
+
+footer {
+    background-color: #79AEA3;
+    padding: 5px;
+    margin: 5px;
+}
